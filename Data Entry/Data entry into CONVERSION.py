@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 
 A="insert into conversion values('France',000.45,001.19,087.94);"
