@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 
 # Entering the flight details
