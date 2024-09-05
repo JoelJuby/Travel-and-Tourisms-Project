@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host="localhost",user="root",passwd="joel2003",database="TRAVEL_AND_TOURISM")
+mydb=mysql.connector.connect(host="localhost",user="root",passwd="*****",database="TRAVEL_AND_TOURISM")
 mycursor=mydb.cursor()
 
 A1="insert into countrycity values('France','Paris','With some of the most recognizable buildings and monuments in the world, Paris is a must-see city to visit. From the stunning art collections at the Louvre to the eerie catacombs beneath the streets and the breath taking Notre-Dame Cathedral, you could spend a lifetime getting to know all of Paris´ wonderful sights.');"
