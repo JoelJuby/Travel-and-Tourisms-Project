@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 
 A="insert into maintable values('France','Europe','France, country of northwestern Europe is historically and culturally among the most important nations in the Western world. France has 37 sites inscribed in the World Heritage List and features cities or sites of high cultural interest, beaches and seaside resorts, ski resorts, and rural regions that many enjoy for their beauty and tranquillity. For more than two decades, France has reigned as the worlds most popular tourist destination, receiving 82 million foreign tourists annual. People from all over the world are drawn to Frances sophisticated culture, dazzling landmarks, exquisite cuisine, fine wines, romantic chateaux and picturesque countryside.');"
