@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 
 A="insert into maintable values ('Russia','Asia','Where to begin in this country spanning an extraordinary 6.6 million square miles? Moscow and St. Petersburg are of course excellent places to start, though you would also be wise to explore overlooked gems like the ancient town of Sezdal.');"
