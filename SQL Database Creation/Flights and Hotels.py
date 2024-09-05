@@ -1,6 +1,6 @@
 import mysql.connector
 # create table 'FLIGHTS'
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 a="create table FLIGHTS(SLNO VARCHAR(2),FLIGHTNAME VARCHAR(20),ECONMULT decimal(2,1),BUSINESSMULT decimal(2,1))"
 mycursor.execute(a)
