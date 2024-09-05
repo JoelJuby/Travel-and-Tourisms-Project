@@ -1,6 +1,6 @@
 import mysql.connector
 # create table 'COUNTRYCITY'
-mydb=mysql.connector.connect(host='localhost',user='root',password='joel2003',database='TRAVEL_AND_TOURISM')
+mydb=mysql.connector.connect(host='localhost',user='root',password='*****',database='TRAVEL_AND_TOURISM')
 mycursor=mydb.cursor( )
 a="create table COUNTRYCITY(COUNTRY VARCHAR(20),CITY VARCHAR(20),DESCRIPTION varchar (2000))"
 mycursor.execute(a)
