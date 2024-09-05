@@ -1,5 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host="localhost",user="root",passwd="joel2003",database="TRAVEL_AND_TOURISM")
+mydb=mysql.connector.connect(host="localhost",user="root",passwd="*****",database="TRAVEL_AND_TOURISM")
 mycursor=mydb.cursor()
 
 A1="insert into countrytourism values('France','Eiffel Tower,Paris');"
